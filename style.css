@@ -232,3 +232,124 @@ nav .desktop-nav li a:hover {
   color: #0213f7;
 }
 
+@media screen and (max-width:1068;){
+  .iphone-11-pro{
+    background: url('images/iphone2.jpg');
+  }
+
+  .iphone-11-pro1{
+    background: url('images/iphone_12__d51ddqcc7oqe_large.jpg');
+  }
+
+  .iphone-11{
+    background: url('images/iphone_airpods_engraving__b3umcc5tz5o2_large.jpg');
+
+  .hero{
+    height: 65rem;
+    background-size: auto 69.8rem;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+  }
+
+  .title-heading{
+    font-size: 4.4rem;
+
+  }
+  .title-heading-1{
+    font-size: 4.4rem;
+
+  }
+  .title-heading1{
+    font-size: 4.4rem;
+
+  }
+
+  .title-sub-heading{
+    font-size: 2.4rem;
+  }
+
+  .title-sub-heading2{
+    font-size: 2.4rem;
+  }
+
+  .title-sub-heading-2{
+    font-size: 2.4rem;
+  }
+
+  }
+}
+  
+@media screen and (max-width:767px) {
+  header{
+    height: 4.8rem;
+    transition: background 0.36s cubic-bezier(0.32, 0.08, 0.24, 1);
+                 height 0.56s cubic-bezier(0.32, 0.08, 0.24, 1);
+  }
+  header.container{
+    padding: 0;
+  }
+
+  .iphone-11-pro{
+    margin-top: 4.8rem;
+
+  }
+
+  .nav-list-larger{
+    display: none;
+
+  }
+  .nav-list{
+    margin-top: 0;
+
+  }
+  nav .desktop-nav li a{
+    display: flex;
+  }
+  nav .desktop-nav{
+    display: flex;
+    width: 4.8rem;
+    height: 4.8rem;
+    justify-content: center;
+  }
+  .mobile-menu{
+    position: relative;
+    z-index: 1500;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .line{
+    position: absolute;
+    width: 1.7rem;
+    height: 1px;
+    transition: margin-top 0.3192s cubic-beizer(0.04, 0.04, 0.12,0.96 );
+    background-color: #fff;
+  }
+
+  .line-top{
+    margin-top: -0.4rem;
+
+  }
+  
+  .active .line-top{
+    margin-top: 0;
+    transform: rotate(45deg);
+    transition: transform  0.3192s cubic-beizer(0.04, 0.04, 0.12,0.96 );
+
+  }
+
+.active .line-bottom{
+    margin-top: 0;
+    transform: rotate(45deg);
+    transition: transform  0.3192s cubic-beizer(0.04, 0.04, 0.12,0.96 );
+
+  }
+  
+}
+
+
